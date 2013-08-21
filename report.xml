@@ -1,0 +1,12 @@
+<openerp>
+	<data>
+    	<report auto="False"
+    		id="report_sale_order"
+    		model="sale.order"
+    		name="sale.webkit.order"
+    		file="osf_sales_order/report/report.mako"
+    		string="Quotation / Order"
+    		report_type="webkit">
+		</report>
+	</data>
+</openerp>
