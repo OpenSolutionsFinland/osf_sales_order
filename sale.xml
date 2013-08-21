@@ -2,7 +2,7 @@
 <openerp>
   <data>
     <report id="sale.report_sale_order"
-            name="sale.order.webkit"
+            name="osf.sales.order"
             auto="False"
             model="sale.order"
             file="osf_sales_order/report/sale_order.mako"

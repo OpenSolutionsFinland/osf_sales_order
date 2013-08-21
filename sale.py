@@ -59,7 +59,7 @@ class SaleOrder(orm.Model):
                  'form': self.read(cursor, uid, ids[0], context=context),
                  }
         return {'type': 'ir.actions.report.xml',
-                'report_name': 'sale.order.webkit',
+                'report_name': 'osf.sales.order',
                 'datas': datas, 'nodestroy': True}
 
 
