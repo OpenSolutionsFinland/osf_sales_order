@@ -18,7 +18,7 @@ class SaleOrderReport(report_sxw.rml_parse):
         company_vat = res_users_obj.browse(self.cr, self.uid, self.uid).company_id.partner_id.vat
         return company_vat
 
-report_sxw.report_sxw('report.sale.order.webkit',
+report_sxw.report_sxw('report.osf.sales.order',
                       'sale.order',
                       'addons/osf_sales_order/report/sale_order.mako',
                       parser=SaleOrderReport)
